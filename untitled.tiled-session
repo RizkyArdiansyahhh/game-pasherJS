@@ -1,0 +1,108 @@
+{
+    "Map/SizeTest": {
+        "height": 4300,
+        "width": 2
+    },
+    "activeFile": "assets/maps/level_1.tmx",
+    "expandedProjectPaths": [
+    ],
+    "file.lastUsedOpenFilter": "All Files (*)",
+    "fileStates": {
+        "": {
+            "scaleInEditor": 1
+        },
+        "assets/maps/level1.tmj": {
+            "scale": 1.462,
+            "selectedLayer": 1,
+            "viewCenter": {
+                "x": 343.70725034199734,
+                "y": 188.7824897400821
+            }
+        },
+        "assets/maps/level1.tmj#Blocks": {
+            "scaleInDock": 1.7932,
+            "scaleInEditor": 1
+        },
+        "assets/maps/level1.tmj#Grassland": {
+            "scaleInDock": 1
+        },
+        "assets/maps/level1.tmj#Lava": {
+            "scaleInDock": 1
+        },
+        "assets/maps/level1.tmj#Terrain": {
+            "scaleInDock": 1.3262,
+            "scaleInEditor": 1
+        },
+        "assets/maps/level1.tmj#background": {
+            "scaleInDock": 0.4612
+        },
+        "assets/maps/level_1.tmj": {
+            "scale": 1.462,
+            "selectedLayer": 1,
+            "viewCenter": {
+                "x": 377.2229822161423,
+                "y": 144.66484268125853
+            }
+        },
+        "assets/maps/level_1.tmj#Blocks": {
+            "scaleInDock": 1.7932
+        },
+        "assets/maps/level_1.tmj#Grassland": {
+            "scaleInDock": 1
+        },
+        "assets/maps/level_1.tmj#Lava": {
+            "scaleInDock": 1
+        },
+        "assets/maps/level_1.tmj#Terrain": {
+            "scaleInDock": 1.3262,
+            "scaleInEditor": 1
+        },
+        "assets/maps/level_1.tmj#background": {
+            "scaleInDock": 0.4612
+        },
+        "assets/maps/level_1.tmx": {
+            "scale": 0.17535416666666664,
+            "selectedLayer": 1,
+            "viewCenter": {
+                "x": 1200.4277058334326,
+                "y": 114.05488891529035
+            }
+        },
+        "assets/maps/level_1.tmx#Blocks": {
+            "scaleInDock": 1
+        },
+        "assets/maps/level_1.tmx#Grassland": {
+            "scaleInDock": 1
+        },
+        "assets/maps/level_1.tmx#Lava": {
+            "scaleInDock": 1
+        },
+        "assets/maps/level_1.tmx#Terrain": {
+            "scaleInDock": 1
+        },
+        "assets/maps/level_1.tmx#background": {
+            "scaleInDock": 1
+        }
+    },
+    "last.imagePath": "/Users/macbook/riskidev/coding-games-main/assets/tilesets",
+    "map.height": 14,
+    "map.lastUsedFormat": "json",
+    "map.tileHeight": 16,
+    "map.tileWidth": 16,
+    "map.width": 150,
+    "openFiles": [
+        "assets/maps/level_1.tmx"
+    ],
+    "project": "untitled.tiled-project",
+    "property.type": "bool",
+    "recentFiles": [
+        "assets/maps/level_1.tmx",
+        "assets/maps/level1.tmj",
+        "assets/maps/level_1.tmj"
+    ],
+    "tileset.embedInMap": true,
+    "tileset.tileSize": {
+        "height": 16,
+        "width": 16
+    }
+}
