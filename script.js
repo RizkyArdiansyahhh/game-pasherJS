@@ -5,6 +5,8 @@ class Example extends Phaser.Scene {
 
   preload() {
     this.load.tilemapTiledJSON("map", "assets/maps/level1.json");
+    this.load.audio("bgm", "assets/audio/backsound.mp3");
+    this.load.audio("jump", "assets/audio/jump.mp3");
 
     this.load.image(
       "background",
@@ -32,6 +34,11 @@ class Example extends Phaser.Scene {
     const blocksTiles = map.addTilesetImage("Blocks", "Blocks");
     const grasslandTiles = map.addTilesetImage("Grassland", "Grassland");
     const lavaTiles = map.addTilesetImage("Lava", "Lava");
+
+    // sound
+    this.bgm = this.sound.add("bgm", { loop: true, volume: 0.7 });
+    this.bgm.play();
+    this.jumpSound = this.sound.add("jump");
 
     map.createLayer("background1", [backgroundTiles], 0, 0);
     map.createLayer("background2", [grasslandTiles], 0, 0);
@@ -103,6 +110,7 @@ class Example extends Phaser.Scene {
 
     if (this.cursors.up.isDown && this.player.body.blocked.down) {
       this.player.setVelocityY(-300);
+      this.jumpSound.play();
     }
   }
 }
