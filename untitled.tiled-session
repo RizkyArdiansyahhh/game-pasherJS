@@ -69,7 +69,8 @@
             }
         },
         "assets/maps/level_1.tmx#Blocks": {
-            "scaleInDock": 1
+            "scaleInDock": 1,
+            "scaleInEditor": 1
         },
         "assets/maps/level_1.tmx#Grassland": {
             "scaleInDock": 1
@@ -78,14 +79,17 @@
             "scaleInDock": 1
         },
         "assets/maps/level_1.tmx#Terrain": {
-            "scaleInDock": 1
+            "scaleInDock": 1,
+            "scaleInEditor": 1
         },
         "assets/maps/level_1.tmx#background": {
             "scaleInDock": 1
         }
     },
+    "last.exportedFilePath": "/Users/macbook/riskidev/coding-games-main/assets/maps",
     "last.imagePath": "/Users/macbook/riskidev/coding-games-main/assets/tilesets",
     "map.height": 14,
+    "map.lastUsedExportFilter": "JSON map files (*.tmj *.json)",
     "map.lastUsedFormat": "json",
     "map.tileHeight": 16,
     "map.tileWidth": 16,
@@ -94,7 +98,7 @@
         "assets/maps/level_1.tmx"
     ],
     "project": "untitled.tiled-project",
-    "property.type": "bool",
+    "property.type": "string",
     "recentFiles": [
         "assets/maps/level_1.tmx",
         "assets/maps/level1.tmj",
